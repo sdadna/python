@@ -31,7 +31,7 @@ class UrlManager(object):
 	def outputURL(self):
 		try:
 			fd = open('accessed_urls','w+')
-			for url in old_urls:
+			for url in self.old_urls:
 				fd.write(str(url))
 			fd.close()
 		except IOError as e:

@@ -35,6 +35,6 @@ class Spider_zh5000(object):
 
 
 root_url = 'http://www.zh5000.com/ZHJD/gxjd/'
-path = './'
+path = '.'
 main_spider = Spider_zh5000()
 main_spider.spider(root_url,path)

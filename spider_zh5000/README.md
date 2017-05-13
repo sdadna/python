@@ -13,6 +13,3 @@ Get the Chinese Classics content from [http://www.zh5000.com/ZHJD/gxjd/](http://
 
 [ http://www.zh5000.com/ZHJD/gxjd/]: http://www.zh5000.com/ZHJD/gxjd/
 
-=======
-# python
->>>>>>> origin/master

@@ -76,7 +76,7 @@ class Parser(object):
 		return None
 
 	def parserHtml(self, url, content):
-		if url is None or len(content) == 0:
+		if url is None or content is None:
 			return
 
 		soup = BeautifulSoup(content, "html.parser",from_encoding="gb18030")
@@ -87,7 +87,7 @@ class Parser(object):
 		return new_urls,new_title,new_data
 
 	def parseFirstHtml(self, url, content):
-		if url is None or len(content) == 0:
+		if url is None or content is None:
 			return
 
 		soup = BeautifulSoup(content,"html.parser",from_encoding="gb18030")

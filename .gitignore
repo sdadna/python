@@ -1,1 +1,9 @@
+##open mode
 *.pyc
+spider_zh5000/accessed_urls
+spider_zh5000/ZHJD
+
+##conservative mode
+!.gitignore
+
+

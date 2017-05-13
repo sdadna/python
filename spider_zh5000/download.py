@@ -16,7 +16,7 @@ class Downloader(object):
 			request = urllib2.Request(url,headers=headers)
 			response = urllib2.urlopen(request)
 			if response.getcode() != 200:
-				return None
+				return 
 
 			return response.read()
 		except urllib2.URLError,e:
